@@ -1,0 +1,190 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.italic{
+    font-style: italic;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container *{
+    display: flex;
+    justify-content: center;
+}
+.menu .icon img{
+    background-size: cover;
+    height: 100px;
+}
+.menu .icon{
+    width: 50%;
+}
+.menu .navigate{
+    width: 50%;
+}
+.menu{
+    background-image: linear-gradient(to right, #212F3D,#FDFEFE);
+    display: flex;
+    flex-direction: row;
+}
+.menu .navigate{
+    display: flex;
+    justify-content: end;
+    align-self: center;
+}
+.menu .navigate a{
+    transition:2s;
+    text-decoration: none;
+    color:#212F3D;
+    padding: 20px 30px;
+}
+.menu .navigate a:hover{
+    transition: 1s;
+    background-color: #212F3D;
+    color:#FDFEFE;
+    text-shadow: 0 0 10px;
+}
+
+
+.homePicture{
+    width: 99vw;
+	height:100vh;
+    background:url("./celesteLogo.jpg") ;
+    background-size: cover;
+}
+.homePicture .textHomeBg .textHome{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color:#FFFFFF;
+    text-shadow: 0 0 10px #001561 ;
+}
+.homePicture .textHomeBg{
+    height: 100vh;
+}    
+.section-feature .feature{
+    height: 55vh;
+    background-color: #5D6D7E;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.section-feature .feature .feature-picture{
+    width: 55vh;
+    height:55vh;
+}
+.section-feature .feature:nth-child(1) .feature-picture{
+    background: url("./cheeseLogo.jpg");
+    background-size: cover;
+}
+.section-feature .feature:nth-child(2) .feature-picture{
+    background: url("./celesteClassicLogo.png");
+    background-size: cover;
+}
+.section-feature .feature:nth-child(3) .feature-picture{
+    background: url("./celeste2Logo.webp");
+    background-size: cover;
+}
+.section-feature .feature:nth-child(4) .feature-picture{
+    background: url("./celesteGameboyLogo.png");
+    background-size: cover;
+}
+.section-feature .feature:nth-child(5) .feature-picture{
+    background: url("./bannelest.jpg");
+    background-size: cover;
+    background-position-x: -190px;
+	width:35%;
+}
+.section-feature .feature:nth-child(5) .feature-text h2{
+    color: #FF3333;
+}
+.section-feature .feature:nth-child(6) .feature-picture{
+    background: url("./everestLogo.png");
+    background-size: cover;
+	width:35%;
+}
+.section-feature .feature .feature-text{
+    width: 30%;
+    height: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-feature .feature .feature-text h2{
+    color: #FDFEFE;
+    text-shadow: 0 0 10px;
+}
+.section-bestworks .works{
+    width: 99vw;
+    background-color: #212F3D;
+    color: #FDFEFE;
+    text-shadow: 0 0 10px;
+    padding: 5px;
+}
+.section-bestworks .works .title{
+    display: flex;
+    justify-content: center;
+}
+.section-bestworks .works .workPicture img{
+    object-fit: cover;
+    width: 33%;
+    margin: 5px;
+}
+
+.section-bestworks .works .workPicture{
+    display: flex;
+}
+
+
+
+  
+.section-comments{
+	background-color:#37474f;
+	width:99vw;
+	padding:5px;
+}
+.section-comments .comment{
+    height: 300px;
+	width:1000px;
+	display:flex;
+}
+.section-comments .comment .comment-picture{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+}
+.section-comments .comment:nth-child(1) .comment-picture{
+	background: url("./evilDiscord.png");
+}
+.section-comments .comment:nth-child(2) .comment-picture{
+	background: url("./Hollow\ Discord.gif");
+}
+.section-comments .comment .comment-person{
+	margin-left:15px;
+}
+.section-comments .comment .comment-person .comment-name{
+	display:flex;
+	color: #FDFEFE;
+    text-shadow: 0 0 10px;
+}
+.section-comments .comment .comment-person .comment-text{
+	display:flex;
+	align-items:flex-start;
+	color: #FDFEFE;
+    text-shadow: 0 0 10px;
+	height:20%;
+}
+.section-comments .comment .comment-person .comment-text h2{
+	width:100%;
+}
